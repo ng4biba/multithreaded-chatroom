@@ -25,7 +25,7 @@ private messaging: you can send a message to one specific user as long as you ha
 How to compile and run the code: 
 ------------------------
 
-I included the Makefile in my current directory, so you can just run "make" to compile the two required Java files which are "client.java" and "server.java". To clean all of you .class files at the end, you can just type in "make clean". 
+I included the Makefile in my current directory, so you can just run "make" to compile the two required Java files which are "client.java" and "server.java". To clean all of you .class files at the end, you can just type in ```make clean```. 
 
 To run the server, type ```java server <portname>```
 To run a client, type ```java client <ip address> <portnumber>```
@@ -33,23 +33,23 @@ To run a client, type ```java client <ip address> <portnumber>```
 Development environment: 
 ------------------------
 
-I used Sublime Text 2 to write the code and used the terminals on my mac for testing. 
+I used **Sublime Text 2** to write the code and used the terminals on my mac for testing. 
 
 Additional functionalities: 
 ---------------------------
 
 Add yourself to a group: 
 
-addgroup <groupname>
+```addgroup <groupname>```
 
 adds yourself to a group and creates that group if it has not already been created!
 
 Remove yourself from a group: 
 
-offgroup <groupname>
+```offgroup <groupname>```
 
 removes yourself from a group or throws an error if the group does not exist or if you are not in the group
 
-groupmessage <groupname> <message>
+```groupmessage <groupname> <message>```
 
 allows you to send the designated to a group! does not send a message if you are not in the group
